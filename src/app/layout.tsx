@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -36,6 +37,13 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Script
+          src="https://chat.dataagesolutions.com/widget.js"
+          data-api-key="dc3c83714ea81183dd1886c0250e9e1be274ab3f585cc2fed0f34a089029c446"
+          data-api-url="https://chat.dataagesolutions.com/api"
+          data-color="#2563eb"
+          async
+        />
       </body>
     </html>
   );
