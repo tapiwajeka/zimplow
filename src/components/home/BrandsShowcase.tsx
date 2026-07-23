@@ -35,16 +35,10 @@ export function BrandsShowcase() {
               <Link
                 key={brand.name}
                 href={brand.href}
-                className="group flex w-64 shrink-0 snap-start flex-col overflow-hidden rounded-xl border border-line bg-white"
+                className="group shrink-0 snap-start rounded-xl overflow-hidden border border-line bg-white w-64"
               >
-                <div className="relative h-40 w-full bg-paper-dim">
+                <div className="relative h-40 w-full bg-white">
                   <Image src={brand.image} alt={brand.name} fill className="object-contain p-4" sizes="256px" />
-                </div>
-                <div className="flex items-center justify-between border-t border-line px-5 py-4">
-                  <span className="font-display text-sm font-bold text-ink">{brand.name}</span>
-                  <span className="font-display text-xs font-semibold uppercase tracking-wide text-brass-dark group-hover:text-brass">
-                    Learn more →
-                  </span>
                 </div>
               </Link>
             ))}

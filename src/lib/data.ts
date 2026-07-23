@@ -353,10 +353,10 @@ export const equipmentShowcase = [
 ];
 
 export const brandShowcase = [
-  { name: "Massey Ferguson", image: "/images/farmec-tractor.png", href: "/business-units/farmec" },
-  { name: "JCB", image: "/images/3cxhero.png", href: "/business-units/jcb-link" },
-  { name: "Scania", image: "/images/scania.png", href: "/business-units/scanlink" },
-  { name: "Perkins", image: "/images/5008-HD-SPIN-SET_04.png", href: "/business-units/powermec" },
+  { name: "Massey Ferguson", image: "/images/brand-logos/The-triple-triangle-shape-is-a-strong-icon-that-has-embodied-MF-since-19...-scaled.jpg", href: "/business-units/farmec" },
+  { name: "JCB", image: "/images/brand-logos/jcb-logo.svg", href: "/business-units/jcb-link" },
+  { name: "Scania", image: "/images/brand-logos/scania-logo.png", href: "/business-units/scanlink" },
+  { name: "Perkins", image: "/images/brand-logos/Perkins-Logo.svg", href: "/business-units/powermec" },
   { name: "Goodyear", image: "/images/tyres.png", href: "/business-units/trentyre" },
   { name: "Mealie Brand", image: "/images/mealie-brand.png", href: "/business-units/mealie-brand" },
 ];
