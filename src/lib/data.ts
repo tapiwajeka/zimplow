@@ -295,19 +295,19 @@ export const heroSlides = [
     tag: "Agriculture",
     title: "Engineering Zimbabwe's Future.",
     copy: "For more than 75 years, Zimplow has powered agriculture, mining, infrastructure and industry through world-class engineering, equipment and aftermarket support.",
-    image: "/images/farmec-tractor.png",
+    image: "/images/hero/hero-messy-ferguson.webp",
   },
   {
     tag: "Mining & Construction",
     title: "Built for Africa's toughest jobs.",
     copy: "From backhoe loaders to excavators, JCB Link keeps mining, construction and government projects moving with genuine equipment and parts.",
-    image: "/images/3cxhero.png",
+    image: "/images/hero/hero-jcb.webp",
   },
   {
     tag: "Automotive & Logistics",
     title: "Keeping industry moving.",
     copy: "Scanlink and TrenTyre back Zimbabwe's transport and logistics sector with Scania vehicles, Goodyear tyres and nationwide fleet support.",
-    image: "/images/scania.png",
+    image: "/images/hero/hero-scania.jpeg",
   },
   {
     tag: "Power Solutions",

@@ -24,14 +24,14 @@ export function HeroSlider() {
           className={`absolute inset-0 transition-opacity duration-1000 ${i === active ? "opacity-100" : "opacity-0"}`}
         >
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_35%,rgba(236,108,46,0.16),transparent_60%)]" />
-          <div className="absolute right-0 top-0 h-full w-full lg:w-3/5">
+          <div className="absolute inset-0 h-full w-full">
             <Image
               src={s.image}
               alt={s.tag}
               fill
               priority={i === 0}
-              className="object-contain object-right p-6 opacity-90 lg:p-12"
-              sizes="(min-width: 1024px) 60vw, 100vw"
+              className="object-cover opacity-90"
+              sizes="100vw"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/85 to-transparent" />
