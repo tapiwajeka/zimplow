@@ -39,7 +39,7 @@ export default function RootLayout({
         <Footer />
         <Script
           src="https://chat.dataagesolutions.com/widget.js"
-          data-api-key="dc3c83714ea81183dd1886c0250e9e1be274ab3f585cc2fed0f34a089029c446"
+          data-api-key="947abb3a0e25be64a42a162b1205aae30cb645cdcacb17eec3a02eacdacec229"
           data-api-url="https://chat.dataagesolutions.com/api"
           data-color="#2563eb"
           async
